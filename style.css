@@ -1,3 +1,43 @@
-body {
-    background-color:#383D58; 
+*{ 
+    margin: 0;
+    padding: 10;
+}
+
+.cabecalho {
+    backgroud-color:383D58;
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+    padding: 24px 0;
+}
+
+.imagem{ 
+    width: 20%;
+}
+
+.item-lista {
+display: inline-block;
+margin: 0 16px;
+padding:24px 0;
+}
+
+.escola {
+    width:25%;
+}
+
+.escola { 
+    background-image: linear-gradient ( #383D58, #00c0eb)
+    color: width;
+    display:flex;
+    justify-content:center;
+    aligr-items:center;
+    padding:24px 0;
+}
+
+.escola-conteudo{ 
+    width:35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
